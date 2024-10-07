@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "math-exercise-generator"
+version = "1.0.0"
+description = "A Python package for generating random math exercises."
+authors = ["outero.co@gmail.com"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/outerovitch-maths/Maths-Exercises-Generator"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21"
+sympy = "^1.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
